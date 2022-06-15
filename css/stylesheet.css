@@ -1,0 +1,116 @@
+/* General */
+Body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Zen Old Mincho', serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  letter-spacing: 7px;
+}
+h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  box-shadow:
+}
+/* Nabbar */
+.navbar {
+  padding: 2% 9.1% 1% 9.1%;
+  background: linear-gradient(to right, #000000, #34B3F1);
+}
+.menu-item {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Section Main */
+#main {
+  padding: 3% 10% 16% 10%;
+  background: linear-gradient(to right, #000000, #34B3F1);
+  position: relative;
+}
+#main p {
+  color: #fff;
+}
+.main-title{
+  padding-top: 110px;
+  text-align: left;
+}
+.fa-title{
+  position: absolute;
+  top: 200px;
+  right: 380px;
+}
+/* Media Query */
+@media (max-width:991px) {
+  .fa-title{
+    position: static;
+  }
+}
+.shape1 {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 5px;
+}
+@media (max-width:991px) {
+  .shape1 {
+    display: none;
+  }
+}
+.shape2{
+  position: absolute;
+  right: 200px;
+  bottom: 200px;
+}
+.shape3{
+  position: absolute;
+}
+.shape4{
+  position: absolute;
+  right: 30px;
+}
+.shape5{
+  position: absolute;
+  top: 100px;
+  right: 160px;
+}
+.shape6{
+  position: absolute;
+  top: 160px;
+  left: 550px;
+}
+/* My Work */
+#work {
+  padding: 5% 10%;
+  position: relative;
+}
+.work-title {
+  padding: 0 0 3% 0;
+}
+.skills-icon{
+  padding: 3% 0 3% 0;
+  letter-spacing: 10px;
+}
+.fas-works {
+  color: #005CAA;
+  padding-top: 15%;
+}
+.btn {
+  background-color: #005CAA;
+
+}
+/* my work */
+.works h5, p{
+  text-align: left;
+}
+/* Contact-me */
+#contact{
+  padding: 3% 10% 0 10%;
+}
+.contact-me{
+
+}
